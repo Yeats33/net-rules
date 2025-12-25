@@ -1,11 +1,18 @@
 # Crypto Filter List
 # 虚拟币交易所、DeFi应用、NFT平台和相关服务分流规则
+# 版本: 2.0（扩展 DeFi 项目版）
 # 最后更新: 2025-12-25
 # 说明: 此规则列表用于 QuantumultX 配置
+#
+# 🎯 项目动机：
+# 许多 Web3 和虚拟币项目（尤其是交易所和 DeFi 应用）对英国 IP 有严格限制，
+# 不允许英国用户直接访问。使用此配置可以通过 VPN 连接到其他地区节点
+# （如阿联酋、新加坡、美国），绕过地理位置限制，正常访问这些服务。
+#
 # 虚拟币节点策略：根据各地虚拟币政策灵活选择节点
-#   🇦🇪 阿联酋（政策最宽松）- 成为加密资产中心之一
-#   🇸🇬 新加坡（政策友好）  - 亚洲虚拟币中心
-#   🇺🇸 美国（政策相对开放） - 规范化市场
+#   🇦🇪 阿联酋（政策最宽松）- 成为加密资产中心之一，无地理限制
+#   🇸🇬 新加坡（政策友好）  - 亚洲虚拟币中心，低延迟
+#   🇺🇸 美国（政策相对开放） - 规范化市场，访问稳定
 #   ⚠️  提醒：各地虚拟币政策持续变化，交易前请了解当地法律
 
 # ======= 主流交易所 =======
@@ -103,6 +110,338 @@ DOMAIN,oasis.app
 # Yearn Finance
 DOMAIN-SUFFIX,yearn.finance
 DOMAIN,api.yearn.finance
+
+# AAVE V2/V3 借贷平台
+DOMAIN,v2.aave.com
+DOMAIN,v3.aave.com
+
+# Flux Finance（借贷）
+DOMAIN-SUFFIX,flux.finance
+DOMAIN,api.flux.finance
+
+# Compound V3
+DOMAIN-SUFFIX,compound.finance
+
+# Liquity（借贷）
+DOMAIN-SUFFIX,liquity.org
+DOMAIN,app.liquity.org
+
+# Alchemix（借贷）
+DOMAIN-SUFFIX,alchemix.fi
+DOMAIN,app.alchemix.fi
+
+# Convex Finance（yield 优化）
+DOMAIN-SUFFIX,convexfinance.com
+DOMAIN,app.convexfinance.com
+
+# Lido DAO（质押）
+DOMAIN-SUFFIX,lido.fi
+DOMAIN,dao.lido.fi
+
+# Rocket Pool（以太坊质押）
+DOMAIN-SUFFIX,rocketpool.net
+DOMAIN,app.rocketpool.net
+
+# Staking Rewards（质押追踪）
+DOMAIN-SUFFIX,stakingrewards.com
+
+# Bancor（流动性提供）
+DOMAIN-SUFFIX,bancor.network
+DOMAIN,app.bancor.network
+
+# Curve 衍生品
+DOMAIN-SUFFIX,crvusd.com
+DOMAIN,llamma.curve.fi
+
+# Velodrome（Optimism DEX）
+DOMAIN-SUFFIX,velodrome.finance
+DOMAIN,app.velodrome.finance
+
+# Camelot（Arbitrum DEX）
+DOMAIN-SUFFIX,camelot.exchange
+DOMAIN,app.camelot.exchange
+
+# GMX（永续合约）
+DOMAIN-SUFFIX,gmx.io
+DOMAIN,app.gmx.io
+
+# dYdX（衍生品交易）
+DOMAIN-SUFFIX,dydx.community
+DOMAIN,trade.dydx.community
+
+# Abritrum（Layer2）
+DOMAIN-SUFFIX,arbitrum.io
+DOMAIN,app.arbitrum.org
+
+# Optimism（Layer2）
+DOMAIN-SUFFIX,optimism.io
+DOMAIN,app.optimism.io
+
+# StarkNet DeFi
+DOMAIN-SUFFIX,starknet.io
+
+# Polygon DeFi Hub
+DOMAIN-SUFFIX,polygon.technology
+
+# Avalanche 生态
+DOMAIN-SUFFIX,avax.network
+
+# Fantom 生态
+DOMAIN-SUFFIX,fantom.foundation
+
+# CELO DeFi
+DOMAIN-SUFFIX,celo.org
+DOMAIN,celo.finance
+
+# ICP DeFi（互联网计算机）
+DOMAIN-SUFFIX,dfinity.org
+
+# Cosmos 生态
+DOMAIN-SUFFIX,cosmos.network
+
+# Osmosis（Cosmos DEX）
+DOMAIN-SUFFIX,osmosis.zone
+DOMAIN,app.osmosis.zone
+
+# THORChain（跨链交换）
+DOMAIN-SUFFIX,thorchain.org
+DOMAIN,app.thorchain.finance
+
+# Thorswap（THORChain DEX）
+DOMAIN-SUFFIX,thorswap.finance
+
+# Chainflip（原子交换）
+DOMAIN-SUFFIX,chainflip.io
+
+# Polymarket（预测市场）
+DOMAIN-SUFFIX,polymarket.com
+
+# Augur（预测市场）
+DOMAIN-SUFFIX,augur.net
+
+# Gnosis Protocol（DEX 聚合）
+DOMAIN-SUFFIX,gnosis-protocol.io
+
+# 1inch（DEX 聚合）
+DOMAIN-SUFFIX,1inch.io
+DOMAIN,app.1inch.io
+
+# 0x Protocol（DEX）
+DOMAIN-SUFFIX,0x.org
+DOMAIN,app.0x.org
+
+# ParaSwap（DEX 聚合）
+DOMAIN-SUFFIX,paraswap.io
+DOMAIN,app.paraswap.io
+
+# Matcha（DEX 聚合，0x）
+DOMAIN-SUFFIX,matcha.xyz
+
+# SushiSwap
+DOMAIN-SUFFIX,sushi.com
+DOMAIN,app.sushi.com
+
+# PancakeSwap（BSC）
+DOMAIN-SUFFIX,pancakeswap.finance
+DOMAIN,pancakeswap.com
+
+# Trader Joe（Avalanche）
+DOMAIN-SUFFIX,traderjoexyz.com
+DOMAIN,app.traderjoexyz.com
+
+# SpookySwap（Fantom）
+DOMAIN-SUFFIX,spookyswap.finance
+DOMAIN,app.spookyswap.finance
+
+# QuickSwap（Polygon）
+DOMAIN-SUFFIX,quickswap.exchange
+DOMAIN,app.quickswap.exchange
+
+# Uniswap V2
+DOMAIN,v2.app.uniswap.org
+
+# Balancer V2
+DOMAIN-SUFFIX,balancer.exchange
+
+# Gnosis Batch Auction
+DOMAIN-SUFFIX,gnosis.io
+
+# Yearn 衍生代币
+DOMAIN-SUFFIX,yearn.rocks
+
+# Tokenomics 和 DAO 工具
+DOMAIN-SUFFIX,snapshot.org
+DOMAIN,snapshot.page
+
+# Aragon（DAO 框架）
+DOMAIN-SUFFIX,aragon.org
+DOMAIN,app.aragon.org
+
+# DAOstack
+DOMAIN-SUFFIX,daostack.io
+
+# Tally（DAO 治理）
+DOMAIN-SUFFIX,tally.xyz
+
+# OpenGov（治理）
+DOMAIN-SUFFIX,opengov.com
+
+# Lido DAO 池
+DOMAIN-SUFFIX,lido.fi
+DOMAIN,stake.lido.fi
+DOMAIN,rewards.lido.fi
+
+# Curve Gauge（治理挖矿）
+DOMAIN-SUFFIX,curve.fi
+DOMAIN,gauge.curve.fi
+
+# AURA（Balancer 收益优化）
+DOMAIN-SUFFIX,aura.finance
+DOMAIN,app.aura.finance
+
+# Pendle（收益交易）
+DOMAIN-SUFFIX,pendle.finance
+DOMAIN,app.pendle.finance
+
+# Maple Finance（企业贷款）
+DOMAIN-SUFFIX,maplefinance.io
+
+# TrueFi（无抵押借贷）
+DOMAIN-SUFFIX,truefi.io
+
+# Goldfinch（RWA 借贷）
+DOMAIN-SUFFIX,goldfinch.io
+
+# Clearpool（企业借贷）
+DOMAIN-SUFFIX,clearpool.finance
+
+# Notional（固定利率借贷）
+DOMAIN-SUFFIX,notional.finance
+DOMAIN,app.notional.finance
+
+# Frax（分散稳定币）
+DOMAIN-SUFFIX,frax.finance
+DOMAIN,app.frax.finance
+
+# USDC/USDT 相关
+DOMAIN-SUFFIX,circle.com
+DOMAIN,api.circle.com
+
+# Ribbon Finance（期权策略）
+DOMAIN-SUFFIX,ribbon.finance
+DOMAIN,app.ribbon.finance
+
+# Opyn（期权）
+DOMAIN-SUFFIX,opyn.co
+DOMAIN,app.opyn.co
+
+# Lyra（期权交易）
+DOMAIN-SUFFIX,lyra.finance
+DOMAIN,app.lyra.finance
+
+# Perp Protocol（永续）
+DOMAIN-SUFFIX,perp.com
+DOMAIN,perp.exchange
+
+# vAMM 永续交易
+DOMAIN-SUFFIX,perpetual.exchange
+
+# Gains（去中心化杠杆）
+DOMAIN-SUFFIX,gains.trade
+DOMAIN,app.gains.trade
+
+# C-Level（合成资产）
+DOMAIN-SUFFIX,c-level.io
+
+# Synthetix（合成资产）
+DOMAIN-SUFFIX,synthetix.io
+DOMAIN,synthetix.exchange
+
+# Mirror Protocol（合成资产）
+DOMAIN-SUFFIX,mirrorprotocol.app
+
+# Euler（借贷）
+DOMAIN-SUFFIX,euler.finance
+DOMAIN,app.euler.finance
+
+# DODO（做市商）
+DOMAIN-SUFFIX,dodoex.io
+DOMAIN,app.dodoex.io
+
+# Balancer LBP（首次代币发行）
+DOMAIN,lbp.balancer.fi
+
+# Copper Launch（LBP）
+DOMAIN-SUFFIX,copper.gg
+
+# Fjord Foundry（LBP）
+DOMAIN-SUFFIX,fjordfoundry.com
+
+# DAO Maker（融资）
+DOMAIN-SUFFIX,daomaker.com
+
+# Polkastarter（融资）
+DOMAIN-SUFFIX,polkastarter.com
+
+# Decentraland Finance
+DOMAIN-SUFFIX,decentraland.org
+
+# The Sandbox Finance
+DOMAIN-SUFFIX,sandbox.game
+
+# Axie Infinity DeFi
+DOMAIN-SUFFIX,axieinfinity.com
+
+# Yield.app（聚合收益）
+DOMAIN-SUFFIX,yield.app
+DOMAIN,app.yield.app
+
+# Instadapp（DeFi 聚合）
+DOMAIN-SUFFIX,instadapp.io
+DOMAIN,app.instadapp.io
+
+# DeFi Saver（管理）
+DOMAIN-SUFFIX,defisaver.com
+DOMAIN,app.defisaver.com
+
+# DeBank（DeFi 信息板）
+DOMAIN-SUFFIX,debank.com
+
+# Zapper（DeFi 聚合）
+DOMAIN-SUFFIX,zapper.fi
+DOMAIN,app.zapper.fi
+
+# Zerion（DeFi 钱包）
+DOMAIN-SUFFIX,zerion.io
+DOMAIN,app.zerion.io
+
+# Vesper Finance（收益）
+DOMAIN-SUFFIX,vesper.finance
+
+# Idle Finance（收益优化）
+DOMAIN-SUFFIX,idle.finance
+DOMAIN,app.idle.finance
+
+# Harvest Finance
+DOMAIN-SUFFIX,harvest.finance
+DOMAIN,app.harvest.finance
+
+# Pickle Finance（收益优化）
+DOMAIN-SUFFIX,pickle.finance
+DOMAIN,app.pickle.finance
+
+# Rari Capital（聚合收益）
+DOMAIN-SUFFIX,rari.capital
+
+# Gro Protocol（多链收益）
+DOMAIN-SUFFIX,gro.protocol
+DOMAIN,app.gro.protocol
+
+# Lodestar（借贷，Arbitrum）
+DOMAIN-SUFFIX,lodestarfinance.io
+
+# Blizz Finance（稳定币兑换）
+DOMAIN-SUFFIX,blizz.finance
 
 # ======= NFT平台 =======
 
