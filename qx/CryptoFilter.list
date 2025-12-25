@@ -1,0 +1,248 @@
+# Crypto Filter List
+# 虚拟币交易所、DeFi应用、NFT平台和相关服务分流规则
+# 最后更新: 2025-12-25
+# 说明: 此规则列表用于 QuantumultX 配置
+# 虚拟币节点策略：根据各地虚拟币政策灵活选择节点
+#   🇦🇪 阿联酋（政策最宽松）- 成为加密资产中心之一
+#   🇸🇬 新加坡（政策友好）  - 亚洲虚拟币中心
+#   🇺🇸 美国（政策相对开放） - 规范化市场
+#   ⚠️  提醒：各地虚拟币政策持续变化，交易前请了解当地法律
+
+# ======= 主流交易所 =======
+
+# Binance 币安（全球最大交易所）
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.us
+DOMAIN,api.binance.com
+DOMAIN,stream.binance.com
+DOMAIN,ws-api.binance.com
+
+# Coinbase（美国交易所）
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN,api.exchange.coinbase.com
+DOMAIN,ws-feed.exchange.coinbase.com
+
+# Kraken（老牌交易所）
+DOMAIN-SUFFIX,kraken.com
+DOMAIN,api.kraken.com
+DOMAIN,futures.kraken.com
+
+# Huobi 火币（亚洲交易所）
+DOMAIN-SUFFIX,huobi.com
+DOMAIN,api.huobi.pro
+DOMAIN,api.huobi.br.com
+
+# OKX 欧易（亚洲交易所）
+DOMAIN-SUFFIX,okx.com
+DOMAIN,www.okx.com
+DOMAIN,api.okx.com
+DOMAIN,aws.okx.com
+
+# Gate.io
+DOMAIN-SUFFIX,gate.io
+DOMAIN,api.gate.io
+DOMAIN,ws.gate.io
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN,api.bybit.com
+DOMAIN,stream.bybit.com
+
+# KuCoin
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN,api.kucoin.com
+DOMAIN,openapi-sandbox.kucoin.com
+
+# Crypto.com
+DOMAIN-SUFFIX,crypto.com
+DOMAIN,api.crypto.com
+DOMAIN,stream-sandbox.crypto.com
+
+# Upbit（韩国交易所）
+DOMAIN-SUFFIX,upbit.com
+DOMAIN,api.upbit.com
+
+# Bithumb（韩国交易所）
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN,api.bithumb.com
+
+# ======= DeFi应用 =======
+
+# Uniswap V3/V4
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN,app.uniswap.org
+DOMAIN,api.uniswap.org
+DOMAIN,tokens.uniswap.org
+
+# Aave DeFi借贷
+DOMAIN-SUFFIX,aave.com
+DOMAIN,api.aave.com
+DOMAIN,governance.aave.com
+
+# Curve Finance
+DOMAIN-SUFFIX,curve.fi
+DOMAIN,api.curve.fi
+
+# Lido 流动性质押
+DOMAIN-SUFFIX,lido.fi
+DOMAIN,api.lido.fi
+DOMAIN,stake.lido.fi
+
+# Balancer
+DOMAIN-SUFFIX,balancer.fi
+DOMAIN,api.balancer.fi
+
+# Compound
+DOMAIN-SUFFIX,compound.finance
+DOMAIN,api.compound.finance
+
+# MakerDAO
+DOMAIN-SUFFIX,makerdao.com
+DOMAIN,oasis.app
+
+# Yearn Finance
+DOMAIN-SUFFIX,yearn.finance
+DOMAIN,api.yearn.finance
+
+# ======= NFT平台 =======
+
+# OpenSea
+DOMAIN-SUFFIX,opensea.io
+DOMAIN,api.opensea.io
+DOMAIN,rpc.opensea.io
+
+# Blur
+DOMAIN-SUFFIX,blur.io
+DOMAIN,api.blur.io
+
+# Raydium（Solana DEX）
+DOMAIN-SUFFIX,raydium.io
+DOMAIN,api.raydium.io
+
+# Magic Eden（Solana NFT）
+DOMAIN-SUFFIX,magiceden.io
+DOMAIN,api.magiceden.io
+
+# LooksRare
+DOMAIN-SUFFIX,looksrare.org
+DOMAIN,api.looksrare.org
+
+# ======= 钱包和账户管理 =======
+
+# MetaMask
+DOMAIN-SUFFIX,metamask.io
+DOMAIN,api.metamask.io
+
+# WalletConnect
+DOMAIN-SUFFIX,walletconnect.org
+DOMAIN,bridge.walletconnect.org
+DOMAIN,verify.walletconnect.org
+
+# Ledger硬件钱包
+DOMAIN-SUFFIX,ledger.com
+DOMAIN,api.ledger.com
+
+# Trezor
+DOMAIN-SUFFIX,trezor.io
+DOMAIN,api.trezor.io
+
+# Trust Wallet
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN,api.trustwallet.com
+
+# Phantom（Solana钱包）
+DOMAIN-SUFFIX,phantom.app
+DOMAIN,api.phantom.app
+
+# ======= 数据和分析平台 =======
+
+# CoinMarketCap
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN,api.coinmarketcap.com
+DOMAIN,api-pro.coinmarketcap.com
+
+# CoinGecko
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN,api.coingecko.com
+DOMAIN,pro-api.coingecko.com
+
+# DefiLlama
+DOMAIN-SUFFIX,defillama.com
+DOMAIN,api.defillama.com
+
+# Glassnode
+DOMAIN-SUFFIX,glassnode.com
+DOMAIN,api.glassnode.com
+
+# Nansen
+DOMAIN-SUFFIX,nansen.ai
+DOMAIN,api.nansen.ai
+
+# ======= 区块浏览器 =======
+
+# Etherscan（以太坊）
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN,api.etherscan.io
+DOMAIN,api-testnet.etherscan.io
+
+# BSCScan（币安智能链）
+DOMAIN-SUFFIX,bscscan.com
+DOMAIN,api.bscscan.com
+
+# Polygonscan（Polygon）
+DOMAIN-SUFFIX,polygonscan.com
+DOMAIN,api.polygonscan.com
+
+# Solscan（Solana）
+DOMAIN-SUFFIX,solscan.io
+DOMAIN,api.solscan.io
+
+# Viewblock（多链浏览器）
+DOMAIN-SUFFIX,viewblock.io
+DOMAIN,api.viewblock.io
+
+# ======= RPC服务 =======
+
+# Infura（以太坊RPC）
+DOMAIN-SUFFIX,infura.io
+DOMAIN,mainnet.infura.io
+DOMAIN,goerli.infura.io
+
+# Alchemy（区块链API）
+DOMAIN-SUFFIX,alchemy.com
+DOMAIN,eth-mainnet.g.alchemy.com
+DOMAIN,polygon-mainnet.g.alchemy.com
+
+# QuickNode
+DOMAIN-SUFFIX,quicknode.com
+DOMAIN,rpc.quicknode.pro
+
+# Ankr
+DOMAIN-SUFFIX,ankr.com
+DOMAIN,rpc.ankr.com
+
+# ======= 新闻和资讯 =======
+
+# Coindesk
+DOMAIN-SUFFIX,coindesk.com
+DOMAIN,api.coindesk.com
+
+# Cointelegraph
+DOMAIN-SUFFIX,cointelegraph.com
+
+# The Block
+DOMAIN-SUFFIX,theblock.co
+
+# ======= 支付和结算 =======
+
+# Stripe
+DOMAIN-SUFFIX,stripe.com
+DOMAIN,api.stripe.com
+
+# Circle
+DOMAIN-SUFFIX,circle.com
+DOMAIN,api.circle.com
+
+# Wyre
+DOMAIN-SUFFIX,wyre.com
+DOMAIN,api.wyre.com
