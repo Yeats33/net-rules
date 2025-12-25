@@ -9,7 +9,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -57,3 +58,37 @@ Temporary Items
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
+# ============================================
+# 项目特定的忽略规则
+# ============================================
+
+# VS Code 历史记录和临时文件
+.vscode/.history/
+.vscode/settings.json.tmp
+.vscode/*.tmp
+
+# 本地测试文件
+*.test
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 操作系统
+Thumbs.db
+ehthumbs.db
+
+# 编辑器备份
+.idea/
+*.sublime-workspace
+*.sublime-project
