@@ -1,0 +1,7 @@
+# GitHub domains routing
+# Choose policy in GitHub访问 group (direct/proxy/region)
+HOST-SUFFIX,github.com
+HOST-SUFFIX,githubusercontent.com
+HOST-SUFFIX,githubassets.com
+HOST-SUFFIX,githubapp.com
+HOST-SUFFIX,github.io
