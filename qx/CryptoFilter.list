@@ -1,7 +1,7 @@
 # Crypto Filter List
 # 虚拟币交易所、DeFi应用、NFT平台和相关服务分流规则
-# 版本: 2.0（扩展 DeFi 项目版）
-# 最后更新: 2025-12-25
+# 版本: 2.1（扩展 Solana DeFi 与预测市场版）
+# 最后更新: 2026-07-19
 # 说明: 此规则列表用于 QuantumultX 配置
 #
 # 🎯 项目动机：
@@ -213,8 +213,58 @@ DOMAIN-SUFFIX,thorswap.finance
 # Chainflip（原子交换）
 DOMAIN-SUFFIX,chainflip.io
 
+# --- Solana DeFi 与链上交易 ---
+
+# Kamino Finance（借贷、流动性与 Swap）
+DOMAIN-SUFFIX,kamino.com
+DOMAIN-SUFFIX,kamino.finance
+
+# Jupiter（Solana DEX 聚合）
+DOMAIN-SUFFIX,jup.ag
+
+# Orca（Solana DEX）
+DOMAIN-SUFFIX,orca.so
+
+# Meteora（Solana 流动性协议）
+DOMAIN-SUFFIX,meteora.ag
+
+# Drift（Solana 永续合约与现货）
+DOMAIN-SUFFIX,drift.trade
+
+# Marinade（Solana 质押）
+DOMAIN-SUFFIX,marinade.finance
+
+# Jito（Solana 流动性质押与 MEV）
+DOMAIN-SUFFIX,jito.network
+
+# Pump.fun（Solana 代币发行与交易）
+DOMAIN-SUFFIX,pump.fun
+
+# Hyperliquid（链上现货与永续合约）
+DOMAIN-SUFFIX,hyperliquid.xyz
+
+# --- 预测市场 ---
+
 # Polymarket（预测市场）
 DOMAIN-SUFFIX,polymarket.com
+
+# Kalshi（事件合约市场）
+DOMAIN-SUFFIX,kalshi.com
+
+# Limitless（Base 链预测市场）
+DOMAIN-SUFFIX,limitless.exchange
+
+# Myriad（链上预测市场）
+DOMAIN-SUFFIX,myriad.markets
+
+# Azuro（链上预测市场协议）
+DOMAIN-SUFFIX,azuro.org
+
+# Opinion（链上预测市场）
+DOMAIN-SUFFIX,opinion.trade
+
+# Predict.fun（链上预测市场）
+DOMAIN-SUFFIX,predict.fun
 
 # Augur（预测市场）
 DOMAIN-SUFFIX,augur.net
